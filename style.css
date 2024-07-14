@@ -1,0 +1,553 @@
+    body {
+        margin: 0px;
+        padding: 0;
+        height: auto;
+        width: 100vw;
+    }
+
+    .navbar {
+        background-color: rgb(255 203 80);
+        height: 4.6rem;
+    }
+
+    .logo {
+        margin: 2rem;
+        top: -1.5rem;
+        left: 1.5rem;
+        position: relative;
+    }
+
+    .list {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        right: 3rem;
+        top: 1.1rem;
+        font-weight: 600;
+        gap: 4rem;
+        list-style: none;
+        margin: 1rem 1rem;
+    }
+
+    .second {
+        height: 25rem;
+        width: 40rem;
+        left: 5rem;
+        position: relative;
+        top: 5rem;
+    }
+
+    .container {
+        display: inline-block;
+        width: 30rem;
+        height: 10rem;
+        right: 14rem;
+        top: 9.8rem;
+        position: absolute;
+    }
+
+    .container h1 {
+        font-weight: 700;
+        font-size: 3.5rem;
+    }
+
+    .h11 {
+        position: relative;
+        top: -1.9rem;
+    }
+
+    .p {
+        top: -3rem;
+        position: relative;
+    }
+
+    .read {
+        background-color: rgb(255 203 80);
+        border: none;
+        padding: 10px;
+        height: 1.9rem;
+        width: 7rem;
+        font-weight: 600;
+        top: -2rem;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .container2 {
+        width: 80rem;
+        height: 20rem;
+        background-color: rgb(230, 230, 230);
+        position: relative;
+        top: 10rem;
+        right: -8rem;
+    }
+
+    .bcontainer2 {
+        width: 13rem;
+        height: 10rem;
+        position: relative;
+        left: 3rem;
+        top: 4rem;
+    }
+
+    .container2 h1 {
+        color: rgb(255, 196, 57);
+    }
+
+    .bcontainer2 p {
+        position: relative;
+        top: -1rem;
+    }
+
+    .bcontainer2 button {
+        border: none;
+        background-color: rgb(230, 230, 230);
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+    .container2 img {
+        width: 15rem;
+        height: 15rem;
+        position: relative;
+        right: -40rem;
+        top: -7rem;
+    }
+
+    .img2 {
+        width: 15rem;
+        height: 15rem;
+        position: relative;
+        right: -21rem;
+        top: -15.5rem;
+    }
+
+    .container3 {
+        width: 100rem;
+        height: 60rem;
+        background-color: rgb(255, 196, 57);
+        ;
+    }
+
+    .container3 img {
+        right: -30rem;
+        top: -8.5rem;
+        position: relative;
+        width: 55rem;
+        height: 30rem;
+    }
+
+    .ccontainer3 {
+        width: 32rem;
+        height: 30rem;
+        position: relative;
+        top: 17rem;
+        left: 6rem;
+    }
+
+    .ccontainer3 h1 {
+        font-size: 3rem;
+    }
+
+    .ccontainer3 .p {
+        width: 22rem;
+        height: 20rem;
+        margin-top: 4rem;
+    }
+
+    .ccontainer3 button {
+        background-color: black;
+        color: white;
+        border: none;
+        top: -18rem;
+        position: relative;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+    }
+
+    .container4 {
+        width: 80rem;
+        height: 42rem;
+        background-color: rgb(230, 230, 230);
+        position: relative;
+        top: 10rem;
+        right: -8rem;
+    }
+
+    .left {
+        width: 40rem;
+        height: 25rem;
+    }
+
+    .right {
+        width: 40rem;
+        height: 25rem;
+        right: 1rem;
+        position: absolute;
+    }
+
+    .container4 h1 {
+        color: rgb(255, 196, 57);
+        font-weight: 600;
+        font-size: 3rem;
+        position: relative;
+        left: 2rem;
+    }
+
+    .container4 .p {
+        position: relative;
+        left: 2rem;
+        width: 20rem;
+        height: 10rem;
+        top: -1rem;
+    }
+
+    .container4 button {
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        position: relative;
+        top: -3rem;
+        left: 2rem;
+    }
+
+    .two img {
+        width: 20rem;
+        height: 20rem;
+        right: -17rem;
+        position: relative;
+    }
+
+    .container5 {
+        position: relative;
+        top: 20rem;
+        width: 100vw;
+        height: 110vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dcontainer5 {
+        color: rgb(255, 196, 57);
+        text-align: center;
+    }
+
+    .dcontainer5 .p {
+        margin: 0 auto;
+        color: white;
+        width: 50rem;
+        position: relative;
+        top: -0.7rem;
+    }
+
+    .container5 img {
+        margin: 1rem 0;
+    }
+
+    .container5 button {
+        background-color: rgb(255, 203, 80);
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+    .container6 {
+        display: inline-block;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .container6 img {
+        position: relative;
+        top: 12rem;
+        left: 7rem;
+        width: 40rem;
+        height: 25rem;
+    }
+
+    .econtainer6 {
+        position: relative;
+        top: 33rem;
+        right: -55rem;
+        width: 20rem;
+    }
+
+    .econtainer6 h1 {
+        font-size: 3rem;
+    }
+
+    .econtainer6 p {
+        position: relative;
+        top: -1.7rem;
+    }
+
+    .econtainer6 button {
+        border: none;
+        background-color: rgb(255, 203, 80);
+        margin: 1rem 1rem;
+        padding: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .container7 {
+        position: relative;
+        top: 20rem;
+        width: 100vw;
+        height: 90vh;
+        background-color: rgb(230, 230, 230);
+
+    }
+
+    .container7 .left {
+        width: 30rem;
+        position: relative;
+        top: 10rem;
+        left: 20rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 25rem;
+        display: flex;
+
+    }
+
+    .container7 .left h1 {
+        font-size: 3rem;
+    }
+
+    .container7 .left .p {
+        position: relative;
+        top: -1rem'
+
+    }
+
+    .container7 button {
+        background-color: rgb(255, 203, 80);
+        border: none;
+        left: -11.7rem;
+        position: relative;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+    }
+
+    .container7 .fifth img {
+        width: 30rem;
+        height: 30rem;
+        position: absolute;
+        top: 9rem;
+        right: 7rem;
+    }
+
+    .container8 {
+        width: 70vw;
+        height: 100vh;
+        position: relative;
+        top: 20rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .container8 .leftside {
+        position: relative;
+        left: 10rem;
+        background-color: black;
+        color: white;
+        border: white;
+        height: 27rem;
+    }
+
+    .container8 .leftside form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container8 .leftside form .name-surname {
+        display: flex;
+        justify-content: space-between;
+        width: 30vw;
+    }
+
+    .container8 .leftside form .name-surname .input-group {
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+    }
+
+    .container8 .leftside form label {
+        margin: 0.5rem 0;
+    }
+
+    .container8 input {
+        border: 2px solid white;
+        width: 30vw;
+        margin: 0.5rem 0;
+    }
+
+    .container8 .leftside p {
+        position: relative;
+        top: 3rem;
+        width: 40rem;
+        left: -10rem;
+    }
+
+    .container8 .rightside {
+        position: relative;
+        left: 25rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container8 .rightside h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        color: rgb(255, 196, 57);
+    }
+
+    .container8 .rightside p {
+        width: 30rem;
+        height: 10rem;
+    }
+
+    .container8 .rightside img {
+        width: 10rem;
+        height: 10rem;
+        position: relative;
+        top: 1rem;
+    }
+
+    .container8 button {
+        background-color: rgb(255, 196, 57);
+        position: relative;
+        top: 4rem;
+        border: none;
+        padding: 0.5rem 2rem;
+        cursor: pointer;
+    }
+
+    .container9 {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(255, 196, 57);
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        top: 12rem;
+    }
+
+    .container9 h1 {
+        font-size: 3rem;
+        color: black;
+    }
+
+    .container9 p {
+        width: 25rem;
+        margin: 1rem 0;
+        position: relative;
+        left: 36rem;
+        top: -1rem;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+    }
+
+    .container9 button {
+        border: none;
+        padding: 0.5rem 2rem;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        top: 5rem;
+        background-color: black;
+        color: white;
+        left: -30rem;
+        cursor: pointer;
+
+    }
+
+    .container9 img{
+        width: 60rem;
+        height: 30rem;
+
+    }
+    .container10 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        color: yellow;
+        padding: 20px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: 16rem;
+    }
+    
+    .footer-left {
+        flex: 1;
+        position: relative;
+        top: -2rem;
+        left: 1rem;
+    }
+    
+    .footer-left img {
+        width: 100px;
+    }
+    
+    .footer-middle {
+        flex: 2;
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        left: -35rem;
+        top: 6rem;
+        font-size: 15px;
+    }
+    
+    .footer-middle ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .footer-middle li {
+        margin: 10px 0;
+        cursor: pointer;
+    }
+    
+    .footer-right {
+        flex: 1;
+        text-align: right;
+    }
+    
+    .footer-right p {
+        margin-bottom: 10px;
+    }
+    
+    .social-icons {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .social-icons img {
+        width: 24px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    .img9 img{
+        width: 102.6vw;
+    }
